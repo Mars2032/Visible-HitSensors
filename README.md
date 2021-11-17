@@ -1,8 +1,27 @@
-# Super Mario Odyssey - Custom Layout Tool
+# Super Mario Odyssey - Visible Hit-Sensors
 
-This mod introduces edits to Super Mario Odyssey's HUD that allows for users to view any value added by default to the HUD for assistance in various applications. Its main purpose is to demonstrate the ability to modify existing BFLYTs to add Text Panes that can be targeted with the use of the function `al::setPaneString`. 
+Please note that the custom models do not work on console yet! 
 
-This repo contains a pre-compiled build of the current source code. It can be downloaded in the [Releases](https://github.com/CraftyBoss/Starlight-SMO-LayoutEditing/releases).
+This mod allows you to see Mario and Cappy's `HitSensors`, or hit boxes, during gameplay, as well as their positions, marked with a purple coin. 
+In order for this to show anything, you'll have to edit your own stage to add in `Coin` objects with the following names (in UnitConfig):
+
+`pos`
+`head`
+`body`
+`foot`
+`capPos`
+`Trample`
+`SpiralTail1`
+`SpiralTail2`
+`SpiralTail3`
+`SpiralTail4`
+`SpiralTail5`
+
+Both `pos` and `capPos` should have a model name of `CoinPink`, while everything else should have a model name of `HitSensor`. An example of these objects is in the included `romfs` folder, in `CapWorldHomeStageMap.szs`, Scenario 3 (post-moon rock).
+
+You can toggle the visibility of Mario and Cappy by holding ZL and pressing ZR. 
+
+A known issue currently is that if one of the objects goes too far offscreen, it will unload. A fix is currently being worked on.
 
 ## Prerequisites
 
@@ -36,6 +55,7 @@ After a successful build, simply transfer the `atmosphere` folder located inside
 - [OdysseyReversed](https://github.com/shibbo/OdysseyReversed)
 - [open-ead](https://github.com/open-ead/sead) sead Headers
 - [Bryce](https://github.com/brycewithfiveunderscores/Starlight-SMO-Example/) Original Starlight fork for SMO
+- [CraftyBoss](https://github.com/CraftyBoss/Starlight-SMO-LayoutEditing) Basis of this project
 
 # Starlight (Original README)
 An enviroment for linking to Splatoon 2 executable and implementing hooks.
