@@ -44,10 +44,6 @@ On Ubuntu (and other Debian-based systems), devkitPro will be installed to `/opt
 DEVKITPRO=/opt/devkitpro/ make
 ```
 
-## Installing (Atmosphère)
-
-After a successful build, simply transfer the `atmosphere` folder located inside `starlight_patch_100` to the root of your switch's SD card.
-
 ---
 
 # Credits
