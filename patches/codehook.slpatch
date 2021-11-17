@@ -1,0 +1,5 @@
+[version=100, target=main]
+00409EB4:
+    BL endThrowSpiralHook
+001babb0:
+    BL coinControlHook

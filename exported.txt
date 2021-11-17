@@ -1,0 +1,6 @@
+{
+    global:
+        _Z15coinControlHookv;
+        _Z18endThrowSpiralHookv;
+    local: *;
+};

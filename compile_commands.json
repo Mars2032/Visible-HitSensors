@@ -1,0 +1,7 @@
+[
+  {
+    "directory": "C:/Users/candy/Desktop/starlight/Visible-HitSensors",
+    "command": "clang++ -IC:/Users/candy/Desktop/starlight/Visible-HitSensors/include C:/Users/candy/Desktop/starlight/Visible-HitSensors/source/main.cpp",
+    "file": "C:/Users/candy/Desktop/starlight/Visible-HitSensors/source/main.cpp"
+  }
+]

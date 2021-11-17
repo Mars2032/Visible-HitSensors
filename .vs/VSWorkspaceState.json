@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\include",
+    "\\include\\al",
+    "\\include\\al\\LiveActor",
+    "\\include\\al\\sensor",
+    "\\include\\game",
+    "\\include\\game\\Player",
+    "\\source"
+  ],
+  "SelectedNode": "\\include\\al\\sensor\\HitSensorKeeper.h",
+  "PreviewInSolutionExplorer": false
+}
