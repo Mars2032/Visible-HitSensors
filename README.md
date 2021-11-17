@@ -3,7 +3,7 @@
 Please note that the custom models do not work on console yet! 
 
 This mod allows you to see Mario and Cappy's `HitSensors`, or hit boxes, during gameplay, as well as their positions, marked with a purple coin. 
-In order for this to show anything, you'll have to edit your own stage to add in `Coin` objects with the following names (in UnitConfig):
+In order for this to show anything, you'll have to edit your own stage to add in `Coin` objects with the following names (in UnitConfig -> DisplayName):
 
 `pos`
 `head`
